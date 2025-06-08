@@ -78,3 +78,23 @@ gsap.from("#cards-container",{
     }
 })
 
+// gsap.to(".Contact-heading-back",{
+//     backgroundColor : "none",
+//     scrollTrigger : {
+//         trigger : ".Contact-heading-back",
+//         scroller : "body",
+//         // markers : true,
+//         start : "top -50%",
+//         end:"top -100%",
+//         scrub:3
+//     }
+// })
+
+// footer
+document.getElementById("subscribe-form").addEventListener("submit", function (e) {
+  e.preventDefault();
+  alert("Thank you for subscribing!");
+  this.reset();
+});
+
+
