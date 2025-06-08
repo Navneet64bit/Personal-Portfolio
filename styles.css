@@ -206,7 +206,7 @@ video {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   padding: 150px 0px;
   gap: 60px;
 }
@@ -754,7 +754,7 @@ h3 {
 .top-contact {
   display: flex;
   justify-content: center;
-  gap: 100px;
+  gap: 120px;
   padding-bottom: 30px;
   flex-wrap: wrap;
 }
