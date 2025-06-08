@@ -70,7 +70,7 @@ gsap.from("#cards-container",{
     opacity:0,
     duration:1,
     scrollTrigger:{
-        trigger:".projects-heading-front",
+        trigger:".projects-title",
         scroller:"body",
         start:"top 30%",
         end:"top 35%",
